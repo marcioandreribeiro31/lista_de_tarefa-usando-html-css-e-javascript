@@ -7,6 +7,7 @@ buttonAdd.addEventListener("click", function () {
         let tarefa = document.createElement("a");
         Tarefas.appendChild(tarefa);
         tarefa.innerHTML = " - " + input.value;
+        
         let quebraLinha = document.createElement("br");
         Tarefas.appendChild(quebraLinha);
         input.value = "";
